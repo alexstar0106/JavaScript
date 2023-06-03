@@ -1,14 +1,14 @@
 let name = "Alex"
 
-console.log(typeof name)
+console.log(typeof name)    //string
 
 let age = 35
 
-console.log(typeof age)
+console.log(typeof age)     //number
 
 let isLearningJS = true
 
-console.log(typeof isLearningJS)
+console.log(typeof isLearningJS)    //boolean
 
 let info = {
     name: "Alex",
@@ -16,8 +16,8 @@ let info = {
     isLearningJS: true
 }
 
-console.log(typeof info)
+console.log(typeof info)     //object
 
-console.log(5/0)
-console.log(-5/0)
-console.log("apple"*5)
+console.log(5/0)             //indefined
+console.log(-5/0)            //-indefined
+console.log("apple"*5)       //NaN
